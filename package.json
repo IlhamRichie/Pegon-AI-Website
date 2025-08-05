@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
   "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-  "build": "chmod +x ./node_modules/.bin/copyfiles && chmod +x ./node_modules/.bin/tailwindcss && copyfiles -u 1 *.html dist && copyfiles -u 1 hero.png dist && tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  "build": "chmod +x ./node_modules/.bin/copyfiles && chmod +x ./node_modules/.bin/tailwindcss && copyfiles *.html dist && copyfiles hero.png dist && tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
   "keywords": [],
   "author": "",
