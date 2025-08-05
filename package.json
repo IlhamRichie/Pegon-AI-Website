@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
   "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-  "build": "chmod +x ./node_modules/.bin/tailwindcss && tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  "build": "copyfiles -u 1 *.html dist && copyfiles -u 1 hero.png dist && tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "tailwindcss": "^3.4.4"
   }
 }
