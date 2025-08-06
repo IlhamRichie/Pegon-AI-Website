@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pegon.ai - Buka Akses Warisan Naskah Pegon dengan AI</title>
+    <title style="color: orange">
+      Pegon.ai - Buka Akses Warisan Naskah Pegon dengan AI
+    </title>
     <link href="./output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -123,30 +125,28 @@
     </style>
   </head>
   <body class="bg-gray-100 font-sans">
-    <!-- Latar Belakang Animasi -->
     <div class="area">
       <ul class="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li class="circle circle1"></li>
+        <li class="circle circle2"></li>
+        <li class="circle circle3"></li>
+        <li class="circle circle4"></li>
+        <li class="circle circle5"></li>
+        <li class="circle circle6"></li>
+        <li class="circle circle7"></li>
+        <li class="circle circle8"></li>
+        <li class="circle circle9"></li>
+        <li class="circle circle10"></li>
       </ul>
     </div>
 
-    <!-- Header -->
     <header class="sticky top-0 z-50 w-full flex justify-center p-4">
       <nav
         class="container mx-auto flex justify-between items-center px-6 py-3 bg-white/70 backdrop-blur-xl rounded-2xl shadow-lg shadow-gray-900/5 border border-white/80"
       >
-        <a href="#"
-          ><img src="assets/logo.png" alt="logo pegon" class="h-10"
-        /></a>
+        <a href="#">
+          <img src="assets/logo.png" alt="logo pegon" class="h-10" />
+        </a>
         <div class="hidden md:flex items-center space-x-8 font-medium">
           <a href="#fitur" class="text-gray-800 hover:text-amber-500 transition"
             >Fitur</a
@@ -170,10 +170,8 @@
       </nav>
     </header>
 
-    <!-- Konten Utama -->
     <main class="relative z-10">
-      <!-- Hero Section -->
-      <section class="pt-24 pb-48 text-center bg-transparent">
+      <section class="pt-24 pb-32 text-center bg-transparent">
         <div class="container mx-auto px-6">
           <h1
             class="text-4xl sm:text-6xl font-bold text-white leading-tight drop-shadow-lg"
@@ -205,10 +203,8 @@
         </div>
       </section>
 
-      <!-- Wrapper untuk semua section berlatar putih -->
-      <div class="bg-white relative z-20 rounded-t-[3.5rem] -mt-24">
-        <!-- Section Fitur -->
-        <section id="fitur" class="pt-32 pb-20">
+      <div class="bg-white relative z-20 rounded-t-[3.5rem] -mt-64">
+        <section id="fitur" class="pt-48 pb-20">
           <div class="container mx-auto px-6 text-center">
             <h2 class="text-3xl sm:text-4xl font-bold text-gray-800">
               Jembatan Digital untuk Aksara Kuno
@@ -219,7 +215,6 @@
               melakukan sisanya:
             </p>
             <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-10">
-              <!-- Kartu Fitur 1 -->
               <div
                 class="group bg-white p-8 rounded-xl border border-gray-200 text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-amber-400"
               >
@@ -289,7 +284,7 @@
                   manual yang rumit.
                 </p>
               </div>
-              <!-- Kartu Fitur 2 -->
+
               <div
                 class="group bg-white p-8 rounded-xl border border-gray-200 text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-amber-400"
               >
@@ -317,7 +312,7 @@
                   tangan yang kompleks.
                 </p>
               </div>
-              <!-- Kartu Fitur 3 -->
+
               <div
                 class="group bg-white p-8 rounded-xl border border-gray-200 text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:border-amber-400"
               >
@@ -351,7 +346,6 @@
           </div>
         </section>
 
-        <!-- Section Manfaat -->
         <section id="manfaat" class="py-24">
           <div class="container mx-auto px-6">
             <div class="text-center mb-16">
@@ -408,7 +402,6 @@
           </div>
         </section>
 
-        <!-- Section Cara Kerja -->
         <section id="langkah" class="py-20 border-t border-gray-200">
           <div class="container mx-auto px-6">
             <div class="text-center">
@@ -419,10 +412,10 @@
                 Dari naskah fisik ke teks digital, hanya butuh beberapa detik.
               </p>
             </div>
+
             <div
               class="mt-16 grid grid-cols-1 md:grid-cols-5 items-start gap-8"
             >
-              <!-- Langkah 1 -->
               <div
                 class="group bg-white p-8 rounded-xl border border-gray-200 text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
               >
@@ -456,13 +449,13 @@
                   Ambil gambar naskah pegon dengan jelas.
                 </p>
               </div>
-              <!-- Garis Konektor -->
+
               <div class="hidden md:flex items-center justify-center h-40">
                 <div
                   class="w-full border-b-2 border-dashed border-gray-300"
                 ></div>
               </div>
-              <!-- Langkah 2 -->
+
               <div
                 class="group bg-white p-8 rounded-xl border border-gray-200 text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
               >
@@ -501,13 +494,13 @@
                   Sistem kami akan menganalisis teks dalam detik.
                 </p>
               </div>
-              <!-- Garis Konektor -->
+
               <div class="hidden md:flex items-center justify-center h-40">
                 <div
                   class="w-full border-b-2 border-dashed border-gray-300"
                 ></div>
               </div>
-              <!-- Langkah 3 -->
+
               <div
                 class="group bg-white p-8 rounded-xl border border-gray-200 text-center transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
               >
@@ -540,10 +533,8 @@
           </div>
         </section>
       </div>
-      <!-- Penutup untuk div bg-white -->
 
-      <!-- Section CTA -->
-      <section id="download" class="pt-20 bg-transparent">
+      <section id="download" class="pt-20">
         <div class="container mx-auto px-6 text-center">
           <h2 class="text-3xl sm:text-4xl font-bold text-white drop-shadow-lg">
             Satu Langkah Lagi Menuju Pengetahuan
@@ -570,8 +561,7 @@
         </div>
       </section>
 
-      <!-- Footer -->
-      <footer class="pt-20 pb-8 bg-transparent">
+      <footer class="pt-20 pb-8">
         <div class="container mx-auto px-6">
           <div
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-white"
