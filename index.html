@@ -141,34 +141,36 @@
     </div>
 
     <header class="sticky top-0 z-50 w-full flex justify-center p-4">
-      <nav
-        class="container mx-auto flex justify-between items-center px-6 py-3 bg-white/70 backdrop-blur-xl rounded-2xl shadow-lg shadow-gray-900/5 border border-white/80"
-      >
-        <a href="#">
-          <img src="assets/logo.png" alt="logo pegon" class="h-10" />
+    <nav class="container mx-auto flex justify-between items-center px-6 py-3 bg-white/70 backdrop-blur-xl rounded-2xl shadow-lg shadow-gray-900/5 border border-white/80">
+        
+        <a href="#" class="flex items-center gap-3 transition-transform duration-300 hover:scale-105">
+            <img src="assets/logo.png" alt="logo pegon" class="h-10" />
+            <span class="text-xl font-bold text-amber-500">Pegon AI</span>
         </a>
+        
         <div class="hidden md:flex items-center space-x-8 font-medium">
-          <a href="#fitur" class="text-gray-800 hover:text-amber-500 transition"
-            >Fitur</a
-          >
-          <a
-            href="#manfaat"
-            class="text-gray-800 hover:text-amber-500 transition"
-            >Manfaat</a
-          >
-          <a
-            href="#langkah"
-            class="text-gray-800 hover:text-amber-500 transition"
-            >Cara Kerja</a
-          >
+            <a href="#fitur" class="group text-gray-800 transition-all duration-300 ease-in-out">
+                <span class="bg-left-bottom bg-gradient-to-r from-amber-500 to-amber-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                    Fitur
+                </span>
+            </a>
+            <a href="#manfaat" class="group text-gray-800 transition-all duration-300 ease-in-out">
+                 <span class="bg-left-bottom bg-gradient-to-r from-amber-500 to-amber-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                    Manfaat
+                </span>
+            </a>
+            <a href="#langkah" class="group text-gray-800 transition-all duration-300 ease-in-out">
+                 <span class="bg-left-bottom bg-gradient-to-r from-amber-500 to-amber-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                    Cara Kerja
+                </span>
+            </a>
         </div>
-        <a
-          href="#download"
-          class="hidden md:inline-block bg-amber-500 text-white font-bold px-5 py-2 rounded-lg hover:bg-amber-600 transition"
-          >Dapatkan Akses</a
-        >
-      </nav>
-    </header>
+
+        <a href="#download" class="hidden md:inline-block bg-amber-500 text-white font-bold px-5 py-2 rounded-lg hover:bg-amber-600 transition-transform duration-300 hover:scale-105">
+            Dapatkan Akses
+        </a>
+    </nav>
+</header>
 
     <main class="relative z-10">
       <section class="pt-24 pb-32 text-center bg-transparent">
