@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"], // <-- Memberi tahu Tailwind untuk memindai file .html dan .js
+  content: [
+  "./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       // Menambahkan warna dari desain GloriaAI Anda
